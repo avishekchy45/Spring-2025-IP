@@ -2,7 +2,7 @@
 
 ---
 
-##### This repository contains all the code and other relevant resources discussed or used during our class sessions. All the slides, announcements, assignment deadlines, and updates will be shared via Google Classroom.
+This repository contains all the code and other relevant resources discussed or used during class sessions. All the slides, announcements, assignment deadlines, and updates will be shared via Google Classroom.
 
 ---
 
@@ -17,8 +17,6 @@
 - **Course Type**: _Core_
 
 - **Credit**: _1.5_	
-
-- **Contact Hours**: _39_
 
 - **Prerequisite**: _Programming Fundamentals_                              
 
