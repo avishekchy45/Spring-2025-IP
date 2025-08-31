@@ -1,0 +1,49 @@
+h3 {
+  color: aqua;
+  text-align: right;
+}
+
+.test_class {
+  color: brown;
+  text-align: left;
+  font-size: 30px;
+}
+
+#test_id {
+  color: chartreuse;
+  text-align: center;
+  width: 300px;
+  height: 50px;
+  padding: 5px;
+  border: 5px dashed gray;
+  margin: 5px;
+}
+
+a:link {
+  font-size: 30px;
+  text-decoration: none;
+  color: #00ff00;
+}
+
+a:visited {
+  color: #00ff00;
+}
+
+a:hover {
+  color: #f00909;
+}
+
+a:active {
+  color: blue;
+}
+
+.test_font {
+  font-family: "Mozilla+Text", serif;
+  font-weight: bold;
+  font-size: 45px;
+}
+
+.test_font_2 {
+  font-family: "Acme", serif;
+  font-size: 45px;
+}
