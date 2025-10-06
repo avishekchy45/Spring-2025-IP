@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link type="image/png" href="../images/puclogo.jpg" rel="icon" />
+    <link type="text/css" href="styles.css" rel="stylesheet">
+    <!-- link media="screen and (min-width: 900px)" href="widescreen.css" rel="stylesheet" -->
+    <!-- link media="screen and (max-width: 600px)" href="smallscreen.css" rel="stylesheet" -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+      integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+      crossorigin="anonymous"></script> -->
+</head>
+
+<body>
+
+    <!-- Header -->
+    <div class="container-fluid p-0">
+        <div id="carousel-header" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-header" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carousel-header" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carousel-header" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carousel-header" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="1500">
+                    <img src="../images/0.jpg" class="d-block w-100" alt="Convocation Image">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>Premier University</h3>
+                        <p>Center of Excellence for Quality Learning</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="1500">
+                    <img src="../images/1.jpg" class="d-block w-100" alt="Campus 1">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>Premier University</h3>
+                        <p>Campus 1</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="1500">
+                    <img src="../images/2.jpg" class="d-block w-100" alt="Campus 2">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>Premier University</h3>
+                        <p>Campus 2</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="1500">
+                    <img src="../images/3.jpg" class="d-block w-100" alt="Campus 3">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>Premier University</h3>
+                        <p>Campus 3</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel-header" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel-header" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary header-navbar sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="../images/puclogo.jpg" alt="Premier University" width="30" height="24">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Admision
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">B.Sc</a></li>
+                            <li><a class="dropdown-item" href="#">M.Sc</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Foreign Students</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Library</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                    <button class="btn btn-outline-primary" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- MENU,MAIN,SIDEBAR -->
+    <div class="container-fluid">
+        <div class="row">
+            <!-- MENU -->
+            <div class="col-sm-2 border border-4 text-start">
+                Test
+            </div>
+            <!-- MAIN -->
+            <div class="col-sm-8 border border-4 text-center">
+                Test
+            </div>
+            <!-- SIDEBAR -->
+            <div class="col-sm-2 border border-4 text-end">
+                Test
+            </div>
+        </div>
+        <div class="row">
+            <!-- MENU -->
+            <div class="col border border-4 text-start">
+                Test
+            </div>
+            <!-- MAIN -->
+            <div class="col border border-4 text-center">
+                Test
+            </div>
+            <!-- SIDEBAR -->
+            <div class="col border border-4 text-end">
+                Test
+            </div>
+        </div>
+        <div class="row">
+            <!-- MENU -->
+            <div class="col-sm-2 border border-4 text-start">
+                Test
+            </div>
+            <!-- MAIN -->
+            <div class="col-sm-8 border border-4 text-center p-4">
+                <div class="row row-cols-1 row-cols-md-3 g-5">
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="../images/1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-body-secondary">Last updated 3 mins ago</small><br>
+                                <a href="#" class="btn btn-secondary m-2">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="../images/2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This card has supporting text below as a natural lead-in to
+                                    additional content.</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-body-secondary">Last updated 3 mins ago</small><br>
+                                <a href="#" class="btn btn-secondary m-2">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="../images/1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This card has even longer content than the first to
+                                    show that equal height action.</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-body-secondary">Last updated 3 mins ago</small><br>
+                                <a href="#" class="btn btn-secondary m-2">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- SIDEBAR -->
+            <div class="col-sm-2 border border-4 text-end">
+                Test
+            </div>
+        </div>
+        <div class="row">
+            <!-- MENU -->
+            <div class="col-sm-2 border border-4 text-start">
+                Test
+            </div>
+            <!-- MAIN -->
+            <div class="col-sm-8 border border-4 text-center p-3">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    Launch Modal
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                Click Yes to close the modal
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-success" data-bs-dismiss="modal">Yes</button>
+                                <button type="button" class="btn btn-danger">No</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- SIDEBAR -->
+            <div class="col-sm-2 border border-4 text-end">
+                Test
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <nav class="navbar navbar-expand-sm justify-content-center bg-primary footer-navbar mt-3">
+        <ul class="navbar-nav nav-fill">
+            <li class="nav-item">
+                <a class="nav-link" href="#">ABOUT US</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">CONTACT US</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">PRIVACY POLICY</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">COPYRIGHT INFORMATION</a>
+            </li>
+        </ul>
+    </nav>
+    </div>
+    </div>
+
+</body>
+
+</html>
