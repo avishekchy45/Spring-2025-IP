@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    <link type="image/png" href="../images/puclogo.jpg" rel="icon" />
+    <link type="text/css" href="styles.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <hr>
+
+    <!-- 1. Inline (not recommended) -->
+    <!-- <button onclick="alert('Hello!')">Click me</button> -->
+
+    <!-- 2. Internal -->
+    <!-- <script>
+        console.log("Hello World!");
+    </script> -->
+
+    <!-- 3. External (recommended) -->
+    <!-- <script src="script.js"></script> -->
+
+    <hr>
+
+    <div class="row m-3 p-3 border text-center">
+        <h1 id="title">Welcome!</h1>
+        <p class="description">This is a paragraph</p>
+        <button id="myButton">Click Me</button>
+    </div>
+
+    <div class="row m-3 p-3 border text-center justify-content-center">
+        <div id="colorBox" style="width:200px; height:200px; background-color:red;" class="m-3"></div>
+        <button id="changeColor">Change Color</button>
+    </div>
+
+    <div class="row m-3 p-3 border text-center">
+        <button id="greetUser">Greet User</button>
+    </div>
+
+    <div class="row m-3 p-3 border text-center justify-content-center">
+        <div class="card" style="width: 30rem;">
+            <div class="card-body">
+                <h5 class="card-title" id="profileName">(Name)</h5>
+                <p class="card-text" id="profileBio">(Bio)</p>
+            </div>
+            <div class="card-footer">
+                <button class="btn btn-secondary m-2" id="updateProfile">Update Profile</button>
+                <button class="btn btn-secondary m-2" id="changeTheme">Change Theme</button>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
